@@ -1,0 +1,28 @@
+/*
+ * timer.c
+ *
+ *  Created on: 20. dec. 2016
+ *      Author: Urban Rupnik
+ */
+
+
+#include <avr/io.h>
+#include <avr/iom328.h>
+#include "stdint.h"
+#include "bittop.h"
+#include "blink.h"
+#include "hardware.h"
+#include "timer.h"
+
+
+void TimerCfg(){
+	PrescalerCfg();
+
+};
+
+void PrescalerCfg(){
+	SETBIT(CLKPR, CLKPCE);
+	CLEARBITS(CLKPR, CLKPS0 | CLKPS1 | CLKPS2 | CLKPS3);
+	//SETBITS(CLKPR, CLKPS0 | CLKPS1); //iz 8MHz na 1 MHz
+	CLEARBIT(CLKPR, CLKPCE);
+};

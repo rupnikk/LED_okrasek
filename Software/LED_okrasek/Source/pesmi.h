@@ -1,0 +1,138 @@
+/*
+ * pesmi.h
+ *
+ *  Created on: 3. jan. 2017
+ *      Author: Urban RUpnik
+ *      City: Zadlog 42
+ */
+
+
+#ifndef SOURCE_PESMI_H_
+#define SOURCE_PESMI_H_
+
+
+/*******************************
+ ************BUFFER PESMI***********
+ *******************************/
+
+
+#define NUM_SONGS 2
+#define ALT
+
+#ifdef MASTER
+	const static uint16_t songs[][3] PROGMEM = {
+			// 0: kuza pazi
+			{100,0,0},
+			{C4,C4_PRESC,OSMINKA},
+			{C4,C4_PRESC,OSMINKA},
+			{C4,C4_PRESC,OSMINKA},
+			{C4,C4_PRESC,OSMINKA},
+			{D4,D4_PRESC,OSMINKA},
+			{D4,D4_PRESC,OSMINKA},
+			{D4,D4_PRESC,OSMINKA},
+			{D4,D4_PRESC,OSMINKA},
+			{E4,E4_PRESC,OSMINKA},
+			{E4,E4_PRESC,OSMINKA},
+			{D4,D4_PRESC,OSMINKA},
+			{D4,D4_PRESC,OSMINKA},
+			{C4,C4_PRESC,OSMINKA},
+			{C4,C4_PRESC,OSMINKA},
+			{C4,C4_PRESC,CETRTINKA},
+			// 15: cuk se je ozenil
+			{40,0,0},
+			{C4, C4_PRESC, CETRTINKA},
+			{D4, D4_PRESC, CETRTINKA},
+			{E4, E4_PRESC, CETRTINKA},
+			{F4, F4_PRESC, CETRTINKA},
+			{G4, G4_PRESC, POLOVINKA},
+			{G4, G4_PRESC, POLOVINKA},
+			{A4, A4_PRESC, POLOVINKA},
+			{A4, A4_PRESC, POLOVINKA},
+			{G4, G4_PRESC, CELINKA},
+			{A4, A4_PRESC, POLOVINKA},
+			{A4, A4_PRESC, POLOVINKA},
+			{G4, G4_PRESC, CELINKA},
+			{F4, F4_PRESC, CETRTINKA},
+			{F4, F4_PRESC, CETRTINKA},
+			{F4, F4_PRESC, CETRTINKA},
+			{F4, F4_PRESC, CETRTINKA},
+			{E4, E4_PRESC, POLOVINKA},
+			{E4, E4_PRESC, POLOVINKA},
+			{D4, D4_PRESC, POLOVINKA},
+			{D4, D4_PRESC, POLOVINKA},
+			{G4, G4_PRESC, CELINKA},
+			{F4, F4_PRESC, CETRTINKA},
+			{F4, F4_PRESC, CETRTINKA},
+			{F4, F4_PRESC, CETRTINKA},
+			{F4, F4_PRESC, CETRTINKA},
+			{E4, E4_PRESC, POLOVINKA},
+			{E4, E4_PRESC, POLOVINKA},
+			{D4, D4_PRESC, POLOVINKA},
+			{D4, D4_PRESC, POLOVINKA},
+			{C4, C4_PRESC, CELINKA},
+	};
+
+	const static size_t song_indeces[NUM_SONGS + 1] PROGMEM = { 0, 16, sizeof(songs)/sizeof(songs[0])};
+
+#else
+	#ifdef ALT
+	const static uint16_t songs[][3] PROGMEM = {
+			// 0: kuza pazi
+			{100,0,0},
+			{C4,C4_PRESC,OSMINKA},
+			{C4,C4_PRESC,OSMINKA},
+			{C4,C4_PRESC,OSMINKA},
+			{C4,C4_PRESC,OSMINKA},
+			{H3,H3_PRESC,OSMINKA},
+			{H3,H3_PRESC,OSMINKA},
+			{H3,H3_PRESC,OSMINKA},
+			{H3,H3_PRESC,OSMINKA},
+			{C4,C4_PRESC,OSMINKA},
+			{C4,C4_PRESC,OSMINKA},
+			{H3,H3_PRESC,OSMINKA},
+			{H3,H3_PRESC,OSMINKA},
+			{C4,C4_PRESC,OSMINKA},
+			{C4,C4_PRESC,OSMINKA},
+			{C4,C4_PRESC,CETRTINKA},
+			// 15: cuk se je ozenil
+			{40,0,0},
+			{C4, C4_PRESC, CETRTINKA},
+			{H3, H3_PRESC, CETRTINKA},
+			{C4, C4_PRESC, CETRTINKA},
+			{D4, D4_PRESC, CETRTINKA},
+			{E4, E4_PRESC, POLOVINKA},
+			{E4, E4_PRESC, POLOVINKA},
+			{F4, F4_PRESC, POLOVINKA},
+			{F4, F4_PRESC, POLOVINKA},
+			{E4, E4_PRESC, CELINKA},
+			{F4, F4_PRESC, POLOVINKA},
+			{F4, F4_PRESC, POLOVINKA},
+			{E4, E4_PRESC, CELINKA},
+			{D4, D4_PRESC, CETRTINKA},
+			{D4, F4_PRESC, CETRTINKA},
+			{D4, D4_PRESC, CETRTINKA},
+			{D4, D4_PRESC, CETRTINKA},
+			{C4, C4_PRESC, POLOVINKA},
+			{C4, C4_PRESC, POLOVINKA},
+			{H3, H3_PRESC, POLOVINKA},
+			{H3, H3_PRESC, POLOVINKA},
+			{E4, E4_PRESC, CELINKA},
+			{D4, D4_PRESC, CETRTINKA},
+			{D4, D4_PRESC, CETRTINKA},
+			{D4, D4_PRESC, CETRTINKA},
+			{D4, D4_PRESC, CETRTINKA},
+			{C4, C4_PRESC, POLOVINKA},
+			{C4, C4_PRESC, POLOVINKA},
+			{H3, H3_PRESC, POLOVINKA},
+			{H3, H3_PRESC, POLOVINKA},
+			{C4, C4_PRESC, CELINKA},
+	};
+
+	const static size_t song_indeces[NUM_SONGS + 1] PROGMEM = { 0, 16, sizeof(songs)/sizeof(songs[0])};
+	#endif
+#endif
+
+
+
+
+#endif /* SOURCE_PESMI_H_ */

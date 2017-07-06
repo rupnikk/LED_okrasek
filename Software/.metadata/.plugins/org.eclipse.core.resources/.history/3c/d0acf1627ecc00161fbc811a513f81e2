@@ -1,0 +1,53 @@
+/*
+ * blink.c
+ *
+ *  Created on: 19. dec. 2016
+ *      Author: Urban Rupnik
+ *      City: Zadlog 42
+ */
+
+#include <avr/io.h>
+#include "stdint.h"
+#include "bittop.h"
+#include "blink.h"
+#include "hardware.h"
+
+
+/*
+ * Blink struktura z nastavitvami
+ *
+ */
+
+
+void IOCfg(){
+	Blink ledica0;
+	ledica0.pin = LED0;
+	ledica0.port=LED0_PORT;
+	ledica0.dir_port=*LED0_DIR_PORT;
+	ledica0.value=1;
+
+//	Blink ledica1;
+//	ledica1.pin = LED1;
+//	ledica1.port=LED1_PORT;
+//	ledica1.dir_port=LED1_DIR_PORT;
+//	ledica1.value=1;
+//
+//	Blink ledica2;
+//	ledica2.pin = LED2;
+//	ledica2.port=LED2_PORT;
+//	ledica2.dir_port=LED2_DIR_PORT;
+//	ledica2.value=1;
+
+	BlinkCfg(&ledica0);
+//	BlinkCfg(&ledica1);
+//	BlinkCfg(&ledica2);
+
+};
+
+void BlinkCfg(Blink *ledica){
+	if(ledica->pin==LED0)SETBIT(ledica->dir_port, ledica->pin);
+	//if(ledica->value==0x01)SETBIT(ledica->port, ledica->pin);
+	//else CLEARBIT(ledica->port, ledica->pin);
+}
+
+

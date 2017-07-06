@@ -1,0 +1,410 @@
+06:54:15 **** Build of project GPIO_Interrupt_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/emacps_v2_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/ttcps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v2_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_0/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v2_1/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/canps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/canps_v2_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v4_1/src
+make -C ps7_cortexa9_0/libsrc/standalone_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/iicps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/iicps_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/sdps_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_0/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_1/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/uartps_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/emacps_v2_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling emacps
+make[1]: arm-xilinx-eabi-gcc: Command not found
+Makefile:25: recipe for target 'xemacps_intr.o' failed
+Makefile:25: recipe for target 'xemacps_bdring.o' failed
+Makefile:25: recipe for target 'xemacps_control.o' failed
+Makefile:25: recipe for target 'xemacps_sinit.o' failed
+Makefile:25: recipe for target 'xemacps_hw.o' failed
+Makefile:25: recipe for target 'xemacps.o' failed
+Makefile:25: recipe for target 'xemacps_g.o' failed
+Makefile:27: recipe for target 'ps7_cortexa9_0/libsrc/emacps_v2_0/src/make.libs' failed
+make[1]: *** [xemacps_intr.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xemacps_bdring.o] Error 127
+Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v2_0/src
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make -C ps7_cortexa9_0/libsrc/ttcps_v2_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling ttcps
+Makefile:25: recipe for target 'xttcps_options.o' failed
+Makefile:25: recipe for target 'xttcps.o' failed
+Makefile:25: recipe for target 'xttcps_selftest.o' failed
+Makefile:25: recipe for target 'xttcps_sinit.o' failed
+Makefile:25: recipe for target 'xttcps_g.o' failed
+Makefile:27: recipe for target 'ps7_cortexa9_0/libsrc/ttcps_v2_0/src/make.libs' failed
+make[1]: *** [xemacps_control.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xemacps_sinit.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xemacps_hw.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xemacps.o] Error 127
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_0/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling qspips
+Makefile:25: recipe for target 'xqspips_g.o' failed
+Makefile:25: recipe for target 'xqspips_selftest.o' failed
+Makefile:25: recipe for target 'xqspips.o' failed
+Makefile:25: recipe for target 'xqspips_sinit.o' failed
+Makefile:25: recipe for target 'xqspips_hw.o' failed
+Makefile:25: recipe for target 'xqspips_options.o' failed
+Makefile:27: recipe for target 'ps7_cortexa9_0/libsrc/qspips_v3_0/src/make.libs' failed
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xemacps_g.o] Error 127
+make[1]: Target 'libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/emacps_v2_0/src/make.libs] Error 2
+make[1]: arm-xilinx-eabi-gcc: Command not found
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling dmaps
+Makefile:25: recipe for target 'xdmaps_hw.o' failed
+make[1]: *** [xttcps_options.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xttcps.o] Error 127
+Makefile:25: recipe for target 'xdmaps_g.o' failed
+Makefile:25: recipe for target 'xdmaps_selftest.o' failed
+Makefile:25: recipe for target 'xdmaps_sinit.o' failed
+Makefile:25: recipe for target 'xdmaps.o' failed
+Makefile:27: recipe for target 'ps7_cortexa9_0/libsrc/dmaps_v2_0/src/make.libs' failed
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v2_1/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling gpiops
+Makefile:25: recipe for target 'xgpiops_g.o' failed
+make[1]: arm-xilinx-eabi-gcc: Command not found
+Makefile:25: recipe for target 'xgpiops_intr.o' failed
+make[1]: *** [xttcps_selftest.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xttcps_sinit.o] Error 127
+Makefile:25: recipe for target 'xgpiops.o' failed
+make[1]: arm-xilinx-eabi-gcc: Command not found
+Makefile:25: recipe for target 'xgpiops_selftest.o' failed
+make[1]: *** [xttcps_g.o] Error 127
+Makefile:25: recipe for target 'xgpiops_sinit.o' failed
+make[1]: Target 'libs' not remade because of errors.
+Makefile:25: recipe for target 'xgpiops_hw.o' failed
+make: *** [ps7_cortexa9_0/libsrc/ttcps_v2_0/src/make.libs] Error 2
+Makefile:27: recipe for target 'ps7_cortexa9_0/libsrc/gpiops_v2_1/src/make.libs' failed
+Running Make libs in ps7_cortexa9_0/libsrc/canps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/canps_v2_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling canps
+Makefile:25: recipe for target 'xcanps_intr.o' failed
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xqspips_g.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xqspips_selftest.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xqspips.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xqspips_sinit.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xqspips_hw.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xqspips_options.o] Error 127
+make[1]: Target 'libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/qspips_v3_0/src/make.libs] Error 2
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xdmaps_hw.o] Error 127
+Makefile:25: recipe for target 'xcanps_selftest.o' failed
+Makefile:25: recipe for target 'xcanps.o' failed
+Makefile:25: recipe for target 'xcanps_sinit.o' failed
+Makefile:25: recipe for target 'xcanps_hw.o' failed
+Makefile:25: recipe for target 'xcanps_g.o' failed
+Makefile:27: recipe for target 'ps7_cortexa9_0/libsrc/canps_v2_0/src/make.libs' failed
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scuwdt
+Makefile:25: recipe for target 'xscuwdt.o' failed
+Makefile:25: recipe for target 'xscuwdt_selftest.o' failed
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xdmaps_g.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xdmaps_selftest.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xdmaps_sinit.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xdmaps.o] Error 127
+make[1]: Target 'libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/dmaps_v2_0/src/make.libs] Error 2
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xgpiops_g.o] Error 127
+Makefile:25: recipe for target 'xscuwdt_sinit.o' failed
+Makefile:25: recipe for target 'xscuwdt_g.o' failed
+Makefile:27: recipe for target 'ps7_cortexa9_0/libsrc/scuwdt_v2_0/src/make.libs' failed
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v4_1/src
+make -C ps7_cortexa9_0/libsrc/standalone_v4_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling standalone
+Makefile:53: recipe for target 'standalone_libs' failed
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xgpiops_intr.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xgpiops.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xgpiops_selftest.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xgpiops_sinit.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xgpiops_hw.o] Error 127
+make[1]: Target 'libs' not remade because of errors.
+Makefile:27: recipe for target 'ps7_cortexa9_0/libsrc/standalone_v4_1/src/make.libs' failed
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scugic
+Makefile:25: recipe for target 'xscugic_selftest.o' failed
+Makefile:25: recipe for target 'xscugic_sinit.o' failed
+Makefile:25: recipe for target 'xscugic.o' failed
+Makefile:25: recipe for target 'xscugic_g.o' failed
+Makefile:25: recipe for target 'xscugic_hw.o' failed
+Makefile:25: recipe for target 'xscugic_intr.o' failed
+Makefile:27: recipe for target 'ps7_cortexa9_0/libsrc/scugic_v2_1/src/make.libs' failed
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+make: *** [ps7_cortexa9_0/libsrc/gpiops_v2_1/src/make.libs] Error 2
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xcanps_intr.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xcanps_selftest.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xcanps.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xcanps_sinit.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xcanps_hw.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xcanps_g.o] Error 127
+make[1]: Target 'libs' not remade because of errors.
+Compiling usbps
+Makefile:25: recipe for target 'xusbps_hw.o' failed
+Makefile:25: recipe for target 'xusbps_intr.o' failed
+Makefile:25: recipe for target 'xusbps_sinit.o' failed
+Makefile:25: recipe for target 'xusbps_endpoint.o' failed
+Makefile:25: recipe for target 'xusbps.o' failed
+Makefile:25: recipe for target 'xusbps_g.o' failed
+Makefile:27: recipe for target 'ps7_cortexa9_0/libsrc/usbps_v2_1/src/make.libs' failed
+Running Make libs in ps7_cortexa9_0/libsrc/iicps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/iicps_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling iicps
+Makefile:25: recipe for target 'xiicps_g.o' failed
+Makefile:25: recipe for target 'xiicps_hw.o' failed
+Makefile:25: recipe for target 'xiicps_options.o' failed
+make: *** [ps7_cortexa9_0/libsrc/canps_v2_0/src/make.libs] Error 2
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xscuwdt.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xscuwdt_selftest.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xscuwdt_sinit.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xscuwdt_g.o] Error 127
+make[1]: Target 'libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/scuwdt_v2_0/src/make.libs] Error 2
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [standalone_libs] Error 127
+make[1]: Target 'libs' not remade because of errors.
+Makefile:25: recipe for target 'xiicps_slave.o' failed
+Makefile:25: recipe for target 'xiicps_master.o' failed
+Makefile:25: recipe for target 'xiicps_intr.o' failed
+Makefile:25: recipe for target 'xiicps_selftest.o' failed
+Makefile:25: recipe for target 'xiicps_sinit.o' failed
+Makefile:25: recipe for target 'xiicps.o' failed
+Makefile:27: recipe for target 'ps7_cortexa9_0/libsrc/iicps_v2_1/src/make.libs' failed
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling xadcps
+Makefile:25: recipe for target 'xadcps_g.o' failed
+Makefile:25: recipe for target 'xadcps_selftest.o' failed
+Makefile:25: recipe for target 'xadcps_sinit.o' failed
+Makefile:25: recipe for target 'xadcps.o' failed
+Makefile:25: recipe for target 'xadcps_intr.o' failed
+Makefile:27: recipe for target 'ps7_cortexa9_0/libsrc/xadcps_v2_0/src/make.libs' failed
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+make: *** [ps7_cortexa9_0/libsrc/standalone_v4_1/src/make.libs] Error 2
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xscugic_selftest.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xscugic_sinit.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xscugic.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xscugic_g.o] Error 127
+Compiling scutimer
+Makefile:25: recipe for target 'xscutimer.o' failed
+Makefile:25: recipe for target 'xscutimer_selftest.o' failed
+Makefile:25: recipe for target 'xscutimer_sinit.o' failed
+Makefile:25: recipe for target 'xscutimer_g.o' failed
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xscugic_hw.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xscugic_intr.o] Error 127
+make[1]: Target 'libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/scugic_v2_1/src/make.libs] Error 2
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xusbps_hw.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+Makefile:27: recipe for target 'ps7_cortexa9_0/libsrc/scutimer_v2_0/src/make.libs' failed
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/sdps_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling sdps
+Makefile:25: recipe for target 'xsdps_sinit.o' failed
+Makefile:25: recipe for target 'xsdps.o' failed
+Makefile:25: recipe for target 'xsdps_g.o' failed
+Makefile:25: recipe for target 'xsdps_options.o' failed
+make[1]: *** [xusbps_intr.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xusbps_sinit.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xusbps_endpoint.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xusbps.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xusbps_g.o] Error 127
+Makefile:27: recipe for target 'ps7_cortexa9_0/libsrc/sdps_v2_1/src/make.libs' failed
+Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_0/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling gpio
+Makefile:19: recipe for target 'libs' failed
+Makefile:27: recipe for target 'ps7_cortexa9_0/libsrc/gpio_v4_0/src/make.libs' failed
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_1/src
+make[1]: Target 'libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/usbps_v2_1/src/make.libs] Error 2
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xiicps_g.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xiicps_hw.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xiicps_options.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xiicps_slave.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling devcfg
+Makefile:25: recipe for target 'xdevcfg_g.o' failed
+Makefile:25: recipe for target 'xdevcfg_intr.o' failed
+Makefile:25: recipe for target 'xdevcfg_hw.o' failed
+Makefile:25: recipe for target 'xdevcfg_selftest.o' failed
+Makefile:25: recipe for target 'xdevcfg_sinit.o' failed
+Makefile:25: recipe for target 'xdevcfg.o' failed
+Makefile:27: recipe for target 'ps7_cortexa9_0/libsrc/devcfg_v3_1/src/make.libs' failed
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/uartps_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+make[1]: *** [xiicps_master.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xiicps_intr.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xiicps_selftest.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xiicps_sinit.o] Error 127
+Compiling uartps
+Makefile:25: recipe for target 'xuartps_g.o' failed
+Makefile:25: recipe for target 'xuartps_selftest.o' failed
+Makefile:25: recipe for target 'xuartps_sinit.o' failed
+Makefile:25: recipe for target 'xuartps.o' failed
+Makefile:25: recipe for target 'xuartps_hw.o' failed
+Makefile:25: recipe for target 'xuartps_options.o' failed
+Makefile:25: recipe for target 'xuartps_intr.o' failed
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xiicps.o] Error 127
+make[1]: Target 'libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/iicps_v2_1/src/make.libs] Error 2
+make[1]: arm-xilinx-eabi-gcc: Command not found
+Makefile:27: recipe for target 'ps7_cortexa9_0/libsrc/uartps_v2_1/src/make.libs' failed
+make[1]: *** [xadcps_g.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xadcps_selftest.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xadcps_sinit.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xadcps.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xadcps_intr.o] Error 127
+make[1]: Target 'libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/xadcps_v2_0/src/make.libs] Error 2
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xscutimer.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xscutimer_selftest.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xscutimer_sinit.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xscutimer_g.o] Error 127
+make[1]: Target 'libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/scutimer_v2_0/src/make.libs] Error 2
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xsdps_sinit.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xsdps.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xsdps_g.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xsdps_options.o] Error 127
+make[1]: Target 'libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/sdps_v2_1/src/make.libs] Error 2
+/bin/sh: 1: arm-xilinx-eabi-gcc: not found
+make[1]: *** [libs] Error 127
+make: *** [ps7_cortexa9_0/libsrc/gpio_v4_0/src/make.libs] Error 2
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xdevcfg_g.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xdevcfg_intr.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xdevcfg_hw.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xdevcfg_selftest.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xdevcfg_sinit.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xdevcfg.o] Error 127
+make[1]: Target 'libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/devcfg_v3_1/src/make.libs] Error 2
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xuartps_g.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xuartps_selftest.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xuartps_sinit.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xuartps.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xuartps_hw.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xuartps_options.o] Error 127
+make[1]: arm-xilinx-eabi-gcc: Command not found
+make[1]: *** [xuartps_intr.o] Error 127
+make[1]: Target 'libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/uartps_v2_1/src/make.libs] Error 2
+make: Target 'all' not remade because of errors.
+
+06:54:16 Build Finished (took 1s.226ms)
+

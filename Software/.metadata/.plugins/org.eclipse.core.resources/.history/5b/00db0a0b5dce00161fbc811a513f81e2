@@ -1,0 +1,27 @@
+/*
+ * main.c
+ *
+ *  Created on: 27. dec. 2016
+ *      Author: Urban Rupnik
+ *      City: Zadlog 42
+ */
+
+#include <avr/io.h>
+#include <util/delay.h>
+#include "bittop.h"
+#include "hardware.h"
+#include "timer.h"
+#include "pwm.h"
+#include "blink.h"
+
+int main(){
+
+	TimerCfg();
+	IOCfg();
+
+	while(1){
+
+	}
+	return 0;
+}
+

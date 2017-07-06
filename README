@@ -1,0 +1,31 @@
+Urban Rupnik
+Zadlog 42
+LED_okrasek
+
+-------------------------------------------------------
+
+PCB verzija 1.1 (december 2016)
+
+********SPREMEMBE************
+- dovolj velik procesor(ne vem koliko prostora bodo zasedle melodije, tudi zaradi I2C in USART)
+- IR oddajnik in sprejemnik (za 36 kHz in 38 kHz)
+- en input gumb
+- 8 led 
+- 1W ojačevalnik
+- zvočnik
+- porti povezani precej naključno (en prvih tudi programerskih projektov)
+
+
+PCB verzija 1.2 (januar 2017)
+- dovolj velik procesor(ne vem koliko prostora bodo zasedle melodije)
+- IR oddajnik in sprejemnik (za 36 kHz in 38 kHz)
+- en input gumb
+- 8 led 
+- 1W ojačevalnik
+- zvočnik
+
+********SPREMEMBE************
+- BTN na pin 32 (tam je možnost INT, ne samo PCINT)
+- IR_REC na pin 1 (tam je možnost INT, ne samo PCINT)
+- IR_LED na pin 15 (PB3)(OC2A)(niso iste nastavitve kot pri timerju-0 za AUDIO))(ne na pin 11, zato ker se nastavitev timerja 1 ne bodo mogle prilagajat, zaradi branja daljinca)
+-prilagoditev LED-ic

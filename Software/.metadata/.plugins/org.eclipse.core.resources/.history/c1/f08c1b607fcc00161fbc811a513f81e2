@@ -1,0 +1,40 @@
+/*
+ * main.c
+ *
+ *  Created on: 27. dec. 2016
+ *      Author: Urban Rupnik
+ *      City: Zadlog 42
+ */
+
+#include <avr/io.h>
+#include <util/delay.h>
+#include "bittop.h"
+#include "hardware.h"
+#include "timer.h"
+#include "pwm.h"
+#include "blink.h"
+
+int main(){
+
+	TimerCfg();
+	IOCfg();
+
+//	SETBIT(LED0_DIR_PORT,LED0);
+//	SETBIT(LED1_DIR_PORT,LED1);
+//	SETBIT(LED2_DIR_PORT,LED2);
+//	_delay_ms(1000);
+//	CLEARBIT(LED0_DIR_PORT,LED0);
+//	CLEARBIT(LED1_DIR_PORT,LED1);
+//	CLEARBIT(LED2_DIR_PORT,LED2);
+//	_delay_ms(1000);
+//	SETBIT(LED0_DIR_PORT,LED0);
+//	SETBIT(LED1_DIR_PORT,LED1);
+//	SETBIT(LED2_DIR_PORT,LED2);
+	//SETBIT(LED0_DIR_PORT, LED0);
+	//CLEARBIT(LED0_PORT, LED0);
+	while(1){
+
+	}
+	return 0;
+}
+

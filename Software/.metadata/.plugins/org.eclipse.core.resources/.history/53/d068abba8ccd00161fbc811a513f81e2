@@ -1,0 +1,41 @@
+/*
+ * hardware.h
+ *
+ *  Created on: 19. dec. 2016
+ *      Author: Urban Rupnik
+ *      City: Zadlog 42
+ */
+#include <avr/io.h>
+
+#ifndef _HARDWARE_H_
+#define _HARDWARE_H_
+
+
+
+/*******************************
+ *************LEDICE************
+ *******************************/
+#define LED0 PB7
+#define LED1 PD3
+#define LED2 PC1
+#define LED3 PC1
+
+#define LED0_PORT PORTB
+#define LED1_PORT PORTD
+#define LED2_PORT PORTC
+#define LED2_PORT PORTC
+
+
+#define LED0_DIR_PORT DDRB
+#define LED1_DIR_PORT DDRD
+#define LED2_DIR_PORT DDRC
+#define LED2_DIR_PORT DDRC
+
+/*******************************
+ ************ZVOČNIK************
+ *******************************/
+#define AUDIO PD6
+#define AUDIO_PORT	PORTD
+#define AUDIO_DIR_PORT	DDRD
+
+#endif

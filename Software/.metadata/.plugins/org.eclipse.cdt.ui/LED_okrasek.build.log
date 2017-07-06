@@ -1,0 +1,20 @@
+19:36:40 **** Incremental Build of configuration Debug for project LED_okrasek ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega328 LED_okrasek.elf
+AVR Memory Usage
+----------------
+Device: atmega328
+
+Program:    4388 bytes (13.4% Full)
+(.text + .data + .bootloader)
+
+Data:        101 bytes (4.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+19:36:40 Build Finished (took 134ms)
+
